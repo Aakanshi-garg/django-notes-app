@@ -34,8 +34,7 @@ services:
     
 
  django:
-  build:
-   context: .
+  image: aakanshigarg/notes-app-dockerhub
   ports:
    - "8000:8000"
   command: sh -c "python manage.py migrate --no-input && gunicorn notesapp.wsgi --bind 0.0.0.0:8000"
