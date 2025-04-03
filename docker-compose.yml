@@ -34,7 +34,7 @@ services:
     
 
  django:
-  build: aakanshigarg/notes-app-dockerhub:latest 
+  build: aakanshigarg/notes-app:latest 
    
     
   ports:
