@@ -34,7 +34,8 @@ services:
     
 
  django:
-  build: aakanshigarg/notes-app:latest
+  build: 
+   context: .
    
     
   ports:
