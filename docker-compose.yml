@@ -34,7 +34,7 @@ services:
     
 
  django:
-  build: aakanshigarg/notes-app:latest
+  images: aakanshigarg/notes-app:latest
   
    
     
